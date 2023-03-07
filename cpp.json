@@ -1,0 +1,21 @@
+{
+	"Bare min cpp code" :
+	{
+		"prefix":"main_cpp",
+		"body":
+		[
+			"//...code in C++... mikhi_mh ",
+			"#include <iostream>",
+			"using namespace std;",
+			"",
+			"int main()",
+			"{",
+			"\t$1",
+			"\treturn 0;",
+			"}"
+		],
+		"description": "this is minimum code for any C++ program for me"
+	}
+}
+
+

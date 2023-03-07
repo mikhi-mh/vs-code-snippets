@@ -1,0 +1,18 @@
+{
+	"Bare min C code": 
+	{
+		"prefix": "main_c",
+		"body": 
+		[
+		  "//...code in C... mikhi_mh ",
+		  "#include <stdio.h>",
+		  "int main()",
+		  "{",
+		  "\t$1",
+		  "\treturn 0;",
+		  "}"
+		],
+		
+		"description": "this is minimum code for any C program for me"
+	}
+}

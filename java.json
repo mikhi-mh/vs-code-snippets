@@ -1,0 +1,78 @@
+{
+	"Bare minimum java code " :
+	{
+		"prefix" : "main_java",
+		"body" : 
+		[
+			"//...code in Java... mikhi_mh ",
+			"//import java.util,*;",
+			"",
+			"//Rename the Main class as per your class name",
+			"",
+			"public class Main",
+			"{",
+			"\tpublic static void main(String[] args)",
+			"\t{",
+			"\t\t$1",
+			"\t}",
+			"}"
+		],
+		"description": "this is minimum code for any java program"
+	}
+
+	,
+
+	" main function " :
+	{
+		"prefix" : "psvm",
+
+		"body" : 
+		[
+			"public static void main(String[] args)",
+			"{",
+			"\t$1",
+			"}"
+		],
+
+		"description": "public static void main"
+	}
+
+	,
+
+	" new line print " :
+	{
+		"prefix" : "sout",
+
+		"body" : 
+		[
+			"System.out.println(\"$1\");"
+		],
+
+		"description": "printing new line"
+	}
+
+	,
+
+	"class with input" :
+	{
+		"prefix" : "main_java_input",
+
+		"body" : 
+		[
+			"//...code in Java... mikhi_mh ",
+			"//import java.util,*;",
+			"import java.util.Scanner;",
+			"public class Main",
+			"{",
+			"\tpublic static void main(String[] args)",
+			"\t{",
+			"\t\tScanner input = new Scanner(System.in);",
+			"\t\t$1",
+			"\t}",
+			"}"
+		],
+
+		"description": "java program"
+	}
+}
+
