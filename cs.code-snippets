@@ -1,0 +1,51 @@
+{
+	"Bare minimum java code " :
+	{
+		"prefix" : "main_C#",
+		"body" : 
+		[
+			"//...code in C#... mikhi_mh ",
+			"using System;",
+			"",
+			"namespace FolderName",
+			"{",
+			"\tclass Program //file name should be Program.cs",
+			"\t{",
+			"\t\tpublic static void Main(string[] args)",
+			"\t\t{",
+			"\t\t\t$1",
+			"\t\t}",
+			"\t}",
+			"}"
+		],
+		"description": "this is minimum code for any C# console program"
+	}
+
+	,
+
+	"class with input" :
+	{
+		"prefix" : "main_C#_input",
+
+		"body" : 
+		[
+			"//...code in C#... mikhi_mh ",
+			"using System;",
+			"",
+			"namespace FolderName",
+			"{",
+			"\tclass Program //file name should be Program.cs",
+			"\t{",
+			"\t\tpublic static void Main(string[] args)",
+			"\t\t{",
+			"\t\t\tConsole.WriteLine(\"Hello, world!....write ur messwage here\");",
+			"\t\t\t$1",
+			"\t\t}",
+			"\t}",
+			"}"
+		],
+
+		"description": "C# program"
+	}
+}
+
